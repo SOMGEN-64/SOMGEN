@@ -1,0 +1,62 @@
+/* Dark Theme for SOMGEN */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1f1f1f;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.gallery {
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.grid img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.about, .contact {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+a {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f1f1f;
+  font-size: 0.9rem;
+}
